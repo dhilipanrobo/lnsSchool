@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.volley:volley:1.1.0-rc2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80e491980532a8c0a55ea8d895fba0b5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80e491980532a8c0a55ea8d895fba0b5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.1.0-rc2/90fe9c03f26f0add9a43bc4ee821924ddb203503/volley-1.1.0-rc2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

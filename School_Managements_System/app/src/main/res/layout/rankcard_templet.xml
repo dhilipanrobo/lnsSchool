@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="325dp"
+            android:layout_height="38dp"
+            android:text="I Mid Term"
+            android:textColor="#FFF"
+            android:background="#08979d"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+             />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="325dp"
+            android:layout_height="38dp"
+            android:text="Quarterly Examination"
+            android:textColor="#FFF"
+            android:background="#08979d"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+             />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

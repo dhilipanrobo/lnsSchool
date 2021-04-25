@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:background="@drawable/noticeboard_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:text=""
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/_55sdp" />
+
+                <TextView
+                    android:id="@+id/textView_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="HOMEWORK"
+                    android:textColor="#08979d"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView_news"
+                    android:layout_width="241dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:paddingLeft="5dp"
+                    android:text="homework"
+                    android:textAlignment="viewStart"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/textView_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="7dp"
+                    android:text="homework"
+                    android:textAlignment="viewEnd"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
